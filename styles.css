@@ -35,3 +35,7 @@ body{
             padding: 7%;
             font-size: larger;
           }
+          h4{
+            font-size: 160%;
+            text-align: center;
+          }
