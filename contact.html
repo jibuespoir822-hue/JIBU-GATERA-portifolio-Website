@@ -9,6 +9,15 @@
   <!-- Bootstrap Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    h5{
+      text-align: center;
+    }
+    a{
+      text-align: center;
+    }
+    
+  </style>
 </head>
 <body>
 
@@ -30,23 +39,93 @@
   </nav>
 
   <header>
-   <div class="bg-primary border p-3 my-3">
+   <div>
     <h4>Get In touch</h4>
     <p> Email: Jibuespoir822@gmail.com</p>
+    <p>university Email:bugemauniv.ac.ug</p>
     <p> Phone: +256 794157840</p>
     <p style="color: black; font-size: larger;"> Location:</p>
-    <p>Uganda kampala Bugema university</p>
+    <p>Bugema University Main Campus<br>Gayaza–Ziroobwe Road, Luwero District, Uganda</p>
     <br><p> Send a message on these adresses</p></br>
-
     
+    <h5 class="mt-2 mb-3 fw-bold">Connect with Me</h5>
+            <br><div class="container" class="d-flex gap-2">
+              <a href="https://linkedin.com" target="_blank" class="btn btn-outline-primary btn-sm">
+                <i class="bi bi-linkedin me-1 "></i> LinkedIn
+              </a>
+              <a href="https://github.com" target="_blank" class="btn btn-outline-dark btn-sm">
+                <i class="bi bi-github me-1 "></i> GitHub
+              </a>
+            </div></br>
+
+
+    <div class="container">
+          <div class="card border-0 shadow-sm p-4">
+            <h3 class="mb-4 text-primary">Send a Message</h3>
+            
+            <form action="#" method="POST">
+             
+              <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullName" placeholder="Jibu espoir" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+              </div>
+
+             
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" placeholder="Project Inquiry / Hello" required>
+              </div>
+
+             
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Your message here..." required></textarea>
+              </div>
+
+              
+              <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
 
     
    </div>
   </header>
+  <div class="row mt-5">
+        <div class="col-12">
+          <div class="card border-0 shadow-sm overflow-hidden">
+            <div class="card-header bg-dark text-white fw-bold">
+              <i class="bi bi-geo-alt me-2"></i> Location Map: Bugema University Main Campus
+            </div>
+            <div class="ratio ratio-21x9">
+              <iframe 
+                src="https://maps.google.com/maps?q=0.569722,32.641944+(Bugema+University+Main+Campus)&z=15&output=embed" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
 
   <br><footer class="bg-black text-white py-5 text-center">
     <div class="container">
-      <p class="my-4">2026 jibu gatera espoir</p>
+      <div class="container">
+      <small>&copy; 2026 Jibu gatera. All Rights Reserved.</small>
+    </div>
+
       <div class="mb-3">
         
         <a href="index.html" class="text-white me-5 text-decoration-none">Home</a>
@@ -61,3 +140,4 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
